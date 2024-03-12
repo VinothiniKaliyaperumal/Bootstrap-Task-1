@@ -1,0 +1,240 @@
+* {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 550;
+}
+.navbar {
+    background-color: #2c3f50;
+}
+#hover:hover{
+    background-color: #1abc9c;
+    color: white;
+}
+.nav-link {
+    font-size: 17px;
+}
+.navbar-item {
+    background-color: #2c3f50;
+}
+.start{
+   font-size: 30px;
+}
+.grap{
+    font-size: 25px;
+}
+.images {
+   display: block;
+    width: 100%;
+    height: 690px;
+    /* background-color: #1abc9c; */
+}
+#pic{
+    position: relative; 
+}
+#pic:hover #icon{
+    cursor: pointer;
+    opacity: 0.9;
+} 
+ #icon{
+    margin-top: -257px;
+    /* margin-bottom: 100px; */
+    position: absolute;
+    background-color:#1abc9c ;
+    color: white;
+    transition: 0.4s;
+    width: 100%;
+    height: 257px;
+    border-radius: 5px;
+    opacity: 0;
+} 
+ .bx-plus{
+    font-size: 90px;
+    margin-top: 80px;
+}   
+.header {
+    font-size: 70px;
+    display: 3;
+}
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider {
+    width: 110px;
+    height: 4px;
+    background-color: white;
+}
+.divider1 {
+    width: 110px;
+    height: 4px;
+}
+.bxs-star {
+    font-size: 40px;
+}
+.grap{
+    font-size: 23px;
+}
+.para {
+    font-weight: 100;
+    font-size: 25px;
+}
+.head {
+    width: 100%;
+    height: 300px;
+    background-color: #1abc9c;
+}
+.bxs-star {
+    font-size:40px;
+}
+.port {
+    color: #2c3e50;
+}
+.dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background1 {
+    background-color: #2c3e50;
+}
+.background {
+    background-color: #1abc9c;
+}
+.down{
+    margin-top: -40px;
+}
+ .active{
+    background-color:royalblue;
+    color:white;
+}
+
+
+@media screen and (max-width:769px) and (min-width:426px) {
+    .menu {
+        margin-left: 400px;
+         /* font-size: 15px; */
+}
+    .start{
+        font-size: 21px;
+    }
+    .boot{
+        font-size: 21px;
+    }
+    /* .middle{
+        font-size: 47px;
+    } */
+    .row{
+    margin-left: -2px;
+    }
+    .row1{
+    margin-top: -60px;
+    margin-left: 10px;
+    }
+    .three{
+        margin-top: 25px;
+    }
+    .four{
+        margin-top: 2px;
+    }
+}
+
+@media screen and (max-width:376px) and (min-width:320px) {
+    .menu {
+        margin-left: 50px;
+        padding: 1px;
+        /* font-size: 6px; */
+    }
+    .start {
+        font-size: 18px;
+    }
+    .boot{
+        font-size: 18px;
+    }
+    .grap{
+        font-size: 23px;
+    }
+    .row1{
+        margin-top: -60px;
+    }
+    .port{
+        font-size: 40px;
+    }
+    .contact{
+        font-size: 36px;
+    }
+    /* .middle{
+        font-size: 47px;
+    } */
+     .two{
+        margin-top: 20px;
+    }
+    .three{
+        margin-top: 20px;
+    }
+
+    .five{
+        margin-top: 20px;
+    }
+    .six{
+        margin-top: 20px;
+    } 
+}
+
+@media screen and (max-width:426px) and (min-width:376px) {
+    .menu {
+        margin-left: 85px;
+    }
+    .start {
+        font-size: 18px;
+        /* margin-left: 10px; */
+    }
+    .boot{
+        font-size: 18px;
+        /* margin-left: 10px; */
+    }
+    .grap{
+        font-size: 22px;
+    }
+    .row1{
+        margin-top: -60px;
+    }
+    /* .middle{
+        font-size: 47px;
+    } */
+     .two{
+        margin-top: 20px;
+    }
+    .three{
+        margin-top: 20px;
+    }
+    .five{
+        margin-top: 20px;
+    }
+    .six{
+        margin-top: 20px;
+    } 
+}
+
+@media screen and (max-width:320px) {
+    .start{
+        font-size: 20px;
+        /* margin-left: 20px; */
+    }
+    .menu{
+        margin-left: 24px;
+        padding: 15px;
+    }
+}
